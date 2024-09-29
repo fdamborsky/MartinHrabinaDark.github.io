@@ -1,0 +1,29 @@
+/* Simple CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Includes padding and border in the element’s total width and height */
+}
+
+body {
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    color: #000;
+}
+
+/* Remove list styles */
+ul, ol {
+    list-style: none;
+}
+
+/* Remove link underlines */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove table borders */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}

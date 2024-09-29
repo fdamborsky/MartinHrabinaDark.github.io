@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("font/roboto.ttf");
+}
+
+@font-face {
+    font-family: RobotoBlack;
+    src: url("font/Roboto-Black.ttf");
+}
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url("font/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: RobotoThin;
+    src: url("font/Roboto-Thin.ttf");
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: url("font/Roboto-Light.ttf");
+}
+
+:root {
+    font-family: RobotoRegular;
+    --font-color : #000;
+    --bg-color: #f6f6f6;
+}
+
+
+body {
+     background-color: var(--bg-color);
+    color: var(--font-color);
+    width: 800px;
+    margin: 0 auto;
+}
+
+#text {
+    padding: 0px 20px;
+}
+
+.image-box {
+    width: 100%;
+    position: relative;
+}
+
+a {
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+img {
+    width: 100%; 
+    border-radius: 50px;
+}
+
+.title h2{
+    font-size: 28px !important;
+    text-align: left;
+    font-family: Roboto;
+}
+
+h1{
+    font-size: 23px;
+    padding-top: 5vh;
+}
+p {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.list {
+    padding-top: 10px;
+}
+
+ul {
+    list-style: inside;
+    list-style-position: inside;
+}
+ul li {
+    font-size: 18px;
+    text-align: left;
+    text-indent: -25px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.boldstrike {
+    text-decoration: line-through;
+}
+
+.p_title {
+    padding-top: 15px;
+}
+
+.last {
+    margin-bottom: 10vh;
+}
+
+@media only screen and (max-width: 900px){
+    ul li {
+      text-indent:0px;
+    }
+}
+
+
+@media only screen and (max-width: 800px){
+    body {
+        width: 100%;
+    }
+    a {
+        left: 5%;
+    }
+    .title h2{
+        font-family: RobotoBlack;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    ul li {
+        font-size: 17px;
+    }
+}
