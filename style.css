@@ -151,7 +151,9 @@ header nav a img {
     font-weight: 100;
     font-size: 36px;
     fill: #f6f6f6 !important;
-    transition: filter 0.5s;
+    transition: filter 0.3s;
+    filter: brightness(500%);
+    
 }
 
 header nav a img:hover{
@@ -244,6 +246,7 @@ header nav a#noclick {
     font-weight: 100;
     font-size: 36px;
     transition: filter 0.5s;
+    filter: brightness(500%);
 }
 
 .menu-button {
@@ -517,7 +520,7 @@ header nav a#noclick {
     display: flex;
     flex-direction: row;
 
-    animation: 25s slide infinite linear;
+    animation: 30s slide infinite linear;
 }
 
 .testimonials:hover .slider{
@@ -527,15 +530,11 @@ header nav a#noclick {
 .box {
     position: relative;
     border: 1px solid #f6f6f6;
+    background-color: #121212;
     margin: 0rem 3rem;
     border-radius: 50px;
     width: 350px;
     height: 275px;
-
-
-    -webkit-box-shadow: 0px 0px 15px 0px rgba(246,246,246,0.5);
-    -moz-box-shadow: 0px 0px 15px 0px rgba(246,246,246,0.5);
-    box-shadow: 0px 0px 15px 0px rgba(246,246,246,0.5);
 }
 
 
@@ -548,7 +547,7 @@ header nav a#noclick {
 }
 
 .testimonials_textbox {
-    height: 85%;
+    height: 80%;
     padding-top: 30px;
 }
 
@@ -571,7 +570,7 @@ header nav a#noclick {
 
 .testimonials_textbox h2{
     font-size: 16px;
-    font-family: RobotoThin;
+    font-family: RobotoLight;
 
     padding: 0px 15px;
     cursor: none;
@@ -769,13 +768,10 @@ header nav a#noclick {
 
 #slider-click {
     display: none;
-    background-color: var(--bg-color);
+    background-color: #121212;
     border: #f6f6f6 solid 1px;
     border-radius: 50px;
     width: 350px;
-    -webkit-box-shadow: 0px 0px 25px 0px rgba(246,246,246,0.5);
-    -moz-box-shadow: 0px 0px 25px 0px rgba(246,246,246,0.5);
-    box-shadow: 0px 0px 25px 0px rgba(246,246,246,0.5);
     margin: 0 auto 40px auto;
 }
 
@@ -844,6 +840,7 @@ header nav a#noclick {
     width: 100%;
     text-align: center;
     padding-top: 5px;
+    padding-bottom: 10px;
 }
 
 .testimonials_image2 img {
