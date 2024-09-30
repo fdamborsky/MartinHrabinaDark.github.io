@@ -69,42 +69,42 @@ const people = [
   {
     name: "DAVID PĚCHOUČEK",
     testimonial: "Tato skupina je plná hodnoty, která jednoznačně převyšuje cenu. Určitě neváhejte! Kluci jsou vám vždycky nápomocni a se vším pomůžou! 💪",
-    photo: "materials/person.svg",
+    photo: "materials/persons/davidpechoucek.webp",
   },
   {
     name: "LUKÁŠ KULICH",
     testimonial: "Myslím si že táto komunita je jedna z najlepších. Martin a Matej majú už niečo za sebou a zdieľajú informácie, ktoré by človek ťažko hľadal sám. Teším sa na čas strávený v tejto komunite a určite ma to posunie o krok ďalej. 💪",
-    photo: "materials/person.svg",
+    photo: "materials/persons/lukaskulich.webp",
   },
   {
     name: "ADAM KILIÁN",
     testimonial: "Cením práci adminů, protože si s tím dali opravdu velkou práci. Předávají nám jejich hodnotné zkušenosti a komunita se mi zdá jako bezva parta lidí! Rozhodně všem doporučuji to vyzkoušet. Sportu zdar a fotbalu zvlášť!",
-    photo: "materials/person.svg",
+    photo: "materials/persons/adamkilian.webp",
   },
   {
     name: "TOMÁŠ PODĚBRADSKÝ",
     testimonial: "Tohle místo vás přiblíží k cíli, to co tu máte fakt stojí za to… super lidi a dva motivátoři, kteří tě poženou kupředu. Jestli je hlavní problém cena, věřte mi, že nic v podobném odvětví za tuto cenu nenajdete. Mohu jen doporučit a těším se, až nás tu bude ještě více.",
-    photo: "materials/person.svg",
+    photo: "materials/persons/tomaspodebradsky.webp",
   },
   {
     name: "JAKUB LEDNICKÝ",
     testimonial: "Komunita s veľkým potenciálom... spojenie človeka, ktorý má cieľ a robí pre to všetko, a toho, čo už ten cieľ dokázal naplniť, znie ako skvelý nápad, kde sa každá jedna vec dá podložiť na dôkazoch.",
-    photo: "materials/person.svg",
+    photo: "materials/persons/jakublednicky.webp",
   },
   {
-    name: "JIŘÍ FLEISCHMAN",
+    name: "JIŘÍ FLEISCHMANN",
     testimonial: "Poprvé co jsem viděl tuhle skupinu, tak jsem si myslel, že to bude nějaká blbost. Ale pak jsem se odhodlal a zkusil jsem se připojit a zjistil jsem, jak je to skvělý. Možnost ptát se na cokoliv prvoligového fotbalisty je skvělá + ta videa se cvičeními jsou skvělý. 👍💪",
-    photo: "materials/person.svg",
+    photo: "materials/persons/jiri_fleischmann.webp",
   },
   {
     name: "JAN REBL",
     testimonial: "Musim říct, že jsem to čekal horší, ale velmi příjemně jste mě překvapili. Je to opravdu skvělá akademie se spoustu skvělými lidmi, žádní namachrovanci, a to jich ve fotbalu je dost. Ale tohle je tak správná komunita, kde si navzájem pomůžeme a nikdo nikoho nebude soudit.",
-    photo: "materials/person.svg",
+    photo: "materials/persons/janrebl.webp",
   },
   {
     name: "ALEŠ VOSTRUHA",
     testimonial: "Práci, kterou admini této 'skupiny' provedli doposud, je bezpochyby neskutečná🤯, už jen to, že se někdo ráno zvedne a jeho první myšlenka je: půjdu vytvořit projekt, který může ostatním pomoct fyzicky i psychicky, je obdivuhodná👏.",
-    photo: "materials/person.svg",
+    photo: "materials/persons/alesvostruha.webp",
   },
 ];
 
@@ -114,7 +114,7 @@ let currentIndex = 0;
 // Function to update the slider content
 function updateSlider(index) {
   const person = people[index];
-  document.querySelector('.photo').src = person.photo;
+  document.querySelector('.slider-container img').src = person.photo;
   document.querySelector('.testimonials_textbox2 h1').textContent = person.name;
   document.querySelector('.testimonials_textbox2 h2').textContent = person.testimonial;
 }

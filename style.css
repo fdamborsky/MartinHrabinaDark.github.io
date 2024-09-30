@@ -529,7 +529,7 @@ header nav a#noclick {
 
 .box {
     position: relative;
-    border: 1px solid #f6f6f6;
+    border: 2px solid #f6f6f6;
     background-color: #121212;
     margin: 0rem 3rem;
     border-radius: 50px;
