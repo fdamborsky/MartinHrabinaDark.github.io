@@ -729,6 +729,7 @@ header nav a#noclick {
 }
 
 .sponsor h1 {
+    text-align: center;
     font-family: RobotoThin;
     font-size: 30px;
 }
